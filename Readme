@@ -1,0 +1,33 @@
+ JavaScript Interactive Test
+
+ Summary
+
+This project creates a simple interactive test using HTML, CSS, and JavaScript. Users can access the quiz by using their username, and it consists of multiple-choice question
+
+ Features
+ 
+Interactive Questions: Respondents can select answers to multiple-choice questions and get instant response.
+Calculation of Score: The user's score is calculated by the quiz and shown at the conclusion.
+
+Styling: To improve the user experience, the interface is stylized with CSS, which also provides visual feedback for both right and wrong responses.
+
+Fake Authentication: To imitate quiz access control, a straightforward authentication method is used.
+
+
+ Execution
+
+ HTML: The quiz layout is structured by semantic elements.
+
+CSS: Styles are used for both user feedback and aesthetics. Different colors had been used for checking anserws is correct or incorrect (red for incorrect / green for correct). Light skyblue colour was used to provide  a authentic background . The light pink color indicates the completetion of the quiz in progress bar . 
+
+JavaScript: Logic controls user feedback, score tracking, and quiz flow.
+
+ Difficulties
+
+It was difficult but rewarding to manage the quiz status and user input in real time and progress bar take time .
+
+Providing users with clear instructions and accessibility was a top goal.
+
+
+
+

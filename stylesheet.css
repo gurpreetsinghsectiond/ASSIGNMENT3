@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(165, 88%, 30%);
+    color: #333;
+}
+
+#quiz-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.correct {
+    background-color: rgb(78, 197, 9);
+}
+
+.incorrect {
+    background-color: rgb(195, 11, 11);
+}
+#progress-container {
+    width: 100%;
+    background: #2c2671;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+#progress-bar {
+    height: 10px;
+    width: 0;
+    background: #c776c7;
+    border-radius: 5px;
+    transition: width 0.5s;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
